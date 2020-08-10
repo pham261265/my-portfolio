@@ -8,7 +8,7 @@ A website to display my portfolio
 * CSS
 
 ## Website
-https://lernantino.github.io/my-portfolio/
+https://pham261265.github.io/my-portfolio/
 
 ## Contribution
 Preston Pham
