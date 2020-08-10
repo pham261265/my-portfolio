@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: relative;
+}
+
+header {
+    padding: 10px 35px;
+    border-bottom: 3px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: whitesmoke;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    line-height: 1.4;
+}
+
+header h1 {
+    font-weight: bolder;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    margin: 15px;
+}
+
+header ul li {
+    margin: 35px 75px;
+    font-weight: lighter;
+    font-size: 2.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-flex;
+    border-bottom: 3px solid;
+    border-color: whitesmoke;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header ul a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.3vw;
+}
+
+.about-me {
+    padding: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-me h2 {
+    display: inline-block;
+    border-bottom: 3px solid;
+    margin-bottom: 50px;
+}
+
+.about-me p {
+    margin: 15px 0 15px 0;
+    vertical-align: 35px;
+    width: 900px;
+    line-height: 2.3;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-me img {
+    width: 35%;
+    padding: 200px;
+    height: -20px;
+    position: absolute;
+    margin-top: -250px;
+    right: 60px;
+    bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-right {
+    text-align: left;
+    padding: 35px;
+    width: 65%;
+}
+
+.my-work {
+    margin-bottom: 30px;
+    padding: 65px;
+}
+
+.my-work img {
+    height: auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: -15px;
+}
+
+.my-work h2 {
+    border-bottom: 3px solid;
+    display: inline-block;
+    margin-right: 500px'
+}
+
+.contact-me {
+    margin-bottom: 30px;
+    padding: 65px;
+}
+.contact-me h2 {
+    border-bottom: 3px solid;
+    display: inline-block;
+    margin-right: -550px;
+    margin-bottom: 60px;
+}
+
+
+.contact-me p {
+    text-align: left;
+    border-bottom: 3px solid;
+    margin-bottom: 60px;
+}
+
+footer {
+    margin: -90px 60px 100px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer h3 {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.contact-me a {
+    padding: 35;
+    vertical-align: 35px;
+}
+
